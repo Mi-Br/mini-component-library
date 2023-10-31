@@ -36,6 +36,10 @@ const SelectWrapper = styled.div`
   width: fit-content;
   border: none;
   border-radius: 8px;
+  & + select {
+    width: 300%;
+  }
+
   select {
     opacity: 0;
     position: absolute;
